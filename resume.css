@@ -1,0 +1,101 @@
+#container {
+  position: relative;
+  max-width: 840px;
+  margin: 2em auto;
+  line-height: 1.5em;
+  border: 1px solid #ccc;
+  box-shadow: 0em 0em 0.5em 0.05em #666;
+  padding: 2em 5em;
+}
+
+section {
+  border-bottom: 1px dotted #ccc;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+td {
+  vertical-align: top;
+}
+#profile h1 {
+  padding-bottom: 0.2em;
+  border-bottom: 1px dashed;
+}
+
+#profile td {
+  min-width: 6em;
+}
+
+#profile {
+}
+
+#education li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+#education table {
+  width: 100%;
+}
+.school, .name{
+  width: 70%;
+}
+
+.courses, .notes, .subtitle{
+  color: #999;
+}
+
+.course {
+  margin-right: 0.5em;
+}
+
+.time {
+  width: 30%;
+  text-align: right;
+}
+
+#skills li{
+  list-style: none;
+  display: inline;
+}
+
+.lang, .soft {
+  margin: 0 0.3em;
+}
+
+#projects li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
+#projects th {
+  text-align: left;
+}
+
+#projects h3, #experiences h3 {
+  margin-bottom:0.2em;
+}
+
+#projects .time, #experiences .time {
+  text-align: right;
+  font-weight: normal;
+}
+
+#projects table {
+  width: 100%;
+}
+
+#projects tr {
+  width: 100%;
+}
+
+#experiences table {
+  width: 100%;
+}
+
+
+#experiences li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
